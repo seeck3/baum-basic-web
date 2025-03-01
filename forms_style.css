@@ -1,0 +1,29 @@
+input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+#agree {
+    width: auto
+}
+
+/* #error {
+    color: white;
+    background-color: red;
+    width: 200px;
+} */
+
+/* #message {
+    color: white;
+    background-color: green;
+    width: 200px;
+} */

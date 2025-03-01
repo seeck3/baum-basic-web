@@ -1,0 +1,47 @@
+/* 전체 배경 색상 변경 */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: blue;
+    /* text-align: center; */
+}
+
+/* 문단 스타일 */
+p {
+    font-size: 18px;
+    color: darkgreen;
+    /* text-align: center; */
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+/* button {
+    text-align: center;
+} */
+
+/* Class Selector (Applies to elements with class="intro") */
+/* .intro {
+    font-weight: bold;
+    color: green;
+} */
+
+/* ID Selector (Applies to element with id="special-btn") */
+/* #special-btn {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+} */
+
+/* Hover effect */
+/* #special-btn:hover {
+    background-color: red;
+} */
