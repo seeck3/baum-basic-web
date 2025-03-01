@@ -26,6 +26,20 @@ p {
     text-align: center;
 } */
 
+/* Foods Lists */
+/* ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: lightblue;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+} */
+
 /* Class Selector (Applies to elements with class="intro") */
 /* .intro {
     font-weight: bold;
