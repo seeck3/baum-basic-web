@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Marco’s Web Page</title>
+</head>
+<body>
+    <h1 id="greeting">Hello!</h1>
+    <p>Welcome to my first web page!</p>
+    <br><br>
+    <h2 id="message">coding is hard!</h2>
+    <button id="special-btn" onclick="changeText()">after baum course</button>
+    <br><br>
+
+    <h1 id="my-favorite-foods-header">My Favorite Foods</h1>
+    <button onclick="renderListFavoriteFoods()">show my foods</button>
+    <ul id="food-list">
+    </ul>
+    
+    <h1 id="my-favorite-foods-header">My Hobbies</h1>
+    <button onclick="renderListMyHobbies()">show my hobbies</button>
+    <ul id="hobby-list">
+    </ul>
+
+    <!-- Change color of `My Hobbies` header to your favorite color -->
+    <!-- Change color `show my hobbies` button to blue -->
+
+    <form onsubmit="return handleSubmit()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+    
+        <br><br>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+    
+        <br><br>
+    
+        <label for="agree">
+            <input type="checkbox" id="agree"> I agree to the terms
+        </label>
+    
+        <br><br>
+    
+        <button type="submit">Register</button>
+    </form>
+    <p id="error"></p>
+    <p id="message-3"></p>
+
+
+    <h1>Students</h1>
+    <button onclick="">show students</button>
+    <ul id="students-list">
+    </ul>
+</body>
+</html>

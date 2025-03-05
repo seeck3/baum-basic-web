@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="forms_style.css" />
     <script src="forms_script.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2>User Registration</h2>
 
-<form onsubmit="return handleSubmit()">
-    <label for="username">Username:</label>
-    <input type="text" id="username" placeholder="Enter your username">
+    <form onsubmit="return handleSubmit()">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+      />
 
-    <br><br>
+      <br /><br />
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" placeholder="Enter your email">
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+      />
 
-    <br><br>
+      <br /><br />
 
-    <label for="agree">
-        <input type="checkbox" id="agree"> I agree to the terms
-    </label>
+      <label for="agree">
+        <input type="checkbox" id="agree" /> I agree to the terms
+      </label>
 
-    <br><br>
+      <br /><br />
 
-    <button type="submit">Register</button>
-</form>
-<p id="error"></p>
-<p id="message"></p>
-</body>
+      <button type="submit">Register</button>
+    </form>
+    <p id="error"></p>
+    <p id="message"></p>
+  </body>
 </html>

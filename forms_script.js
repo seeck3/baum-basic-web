@@ -1,9 +1,9 @@
 function handleSubmit() {
     let username = document.getElementById("username").value;
-    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
     let agree = document.getElementById("agree").checked;
 
-    if (username === "" || email === "") {
+    if (username === "" || password === "") {
         document.getElementById("error").innerText = "Please fill in all fields.";
         return false;
     }
